@@ -1,0 +1,6 @@
+# Evohome Command Hunting
+# Author: Evsdd (2017)
+# Python 2.7.11
+# A simple Windows Python script to hunt for recognised Evohome RQ/RP commands
+# The program sends every possible RQ command 0x0000-0xFFFF with a payload of 01 to the specified controller
+# If a RQ is received within the next 2 messages the command is logged.
