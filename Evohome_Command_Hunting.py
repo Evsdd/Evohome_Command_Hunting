@@ -4,7 +4,7 @@
 # Requires pyserial module which can be installed using 'python -m pip install pyserial'
 # Program to hunt for recognised Evohome RQ/RP commands
 # Program sends every possible RQ command 0x0000-0xFFFF with a payload of 01 to the specified controller
-# If a RQ is received within the next 3 messages the command is logged.
+# If a RP response is received within the next 3 messages the command is logged.
 
 from __future__ import print_function
 import serial                     # import the module
